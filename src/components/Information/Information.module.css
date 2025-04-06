@@ -1,0 +1,12 @@
+.text {
+	margin-top: 50px;
+	width: 250px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 23px;
+	color: aliceblue;
+	background-color: rgb(0, 0, 0);
+	border-radius: 10px;
+	border: 2px solid #ebeaec;
+	box-shadow: 1px 1px 1px rgb(221, 218, 230);
+}

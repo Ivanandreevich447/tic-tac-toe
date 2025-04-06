@@ -1,0 +1,38 @@
+
+.container {
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(65, 17, 240, 0.427);;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn {
+margin: 50px 0 40px;
+	justify-content: center;
+	width: 250px;
+	line-height: 60px;
+	font-size: 23px;
+	border-radius: 10px;
+	border: 2px solid rgb(97, 66, 210);
+	box-shadow: 1px 1px 1px rgb(88, 52, 215);
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.currentPlayerX{
+	box-shadow: 0 0 0 2px #ff5252;
+}
+
+.currentPlayerO {
+	box-shadow: 0 0 0 2px #000000;
+}
+
+button:hover{
+    background:rgb(255, 255, 255);
+}

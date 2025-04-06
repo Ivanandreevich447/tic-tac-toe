@@ -1,0 +1,32 @@
+.container {
+	display: grid;
+	/* даст 3 колонки по 200пх */
+	grid-template-columns: repeat(3, 200px);
+}
+
+
+
+.btn {
+	width: 120px;
+	height: 120px;
+	margin: 20px;
+	border-radius: 10px;
+	font-size: 80px;
+	font-weight: bolder;
+	/* color: rgb(79, 79, 171); */
+	border: 2px solid rgb(94, 64, 204);
+	box-shadow: 1px 1px 1px rgb(128, 98, 236);
+	cursor: pointer;
+}
+
+.cellO {
+	color: #2196f3; /* Синий */
+	background-color: #e3f2fd; /* Светло-синий фон */
+
+}
+
+.cellX {
+	color: #ff5252; /* Красный */
+	background-color: #ffebee; /* Светло-красный фон */
+
+}
